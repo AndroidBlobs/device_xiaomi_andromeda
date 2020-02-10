@@ -244,6 +244,7 @@ on charger
     mount ext4 /dev/block/bootdevice/by-name/persist /mnt/vendor/persist nosuid nodev barrier=1
 
 service vendor.qseecomd /vendor/bin/qseecomd
+    shutdown critical
     class core
     user root
     group root
