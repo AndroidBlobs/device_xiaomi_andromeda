@@ -58,6 +58,7 @@ PRODUCT_PROPERTY_OVERRIDES +=  \
     ro.config.notification_sound=pixiedust.ogg \
     ro.config.ringtone=Ring_Synth_04.ogg \
     ro.config.vc_call_vol_steps=11 \
+    ro.control_privapp_permissions=log \
     ro.crypto.allow_encrypt_override=true \
     ro.crypto.volume.filenames_mode=aes-256-cts \
     ro.dalvik.vm.native.bridge=0 \
